@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>个人博客</title>
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/publi.css">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/media.css">
+	</head>
+	<body>
+		<!-- 头部 -->
+		<header class="header" name="top">
+			<div class="header-left">
+				<p>蓝伟清个人博客</p>
+			</div>
+			<nav class="nav">
+				<ul>
+					<li>
+						<a href="#">主页</a>
+					</li>
+					<li>
+						<a href="jianjie.html">简介</a>
+					</li>
+					<li>
+						<a href="web.html">前端</a>
+					</li>
+					<li>
+						<a href="bowen.html">说说</a>
+					</li>
+					<li>
+						<a href="shuoshuo.html">博文</a>
+					</li>
+					<li>
+						<a href="liuyan.html">留言</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="search">
+				<input type="text" placeholder="搜索">
+			</div>
+			<div id="img"><img src="images/list.png" alt=""></div>
+		</header>
+		<!-- 头部完 -->
+		<!--隐藏的导航栏 -->
+		<div class="col-xs-12" id="navmin">
+			<ul>
+				<li>
+					<a href="index.html">主页</a>
+				</li>
+				<li>
+					<a href="jianjie.html">简介</a>
+				</li>
+				<li>
+					<a href="web.html">前端</a>
+				</li>
+				<li>
+					<a href="bowen.html">说说</a>
+				</li>
+				<li>
+					<a href="shuoshuo.html">博文</a>
+				</li>
+				<li>
+					<a href="liuyan.html">留言</a>
+				</li>
+			</ul>
+		</div>
+		<!-- 隐藏的导航栏完 -->
+		<!-- 登录模态框 -->
+		<div class="modal fade moda" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  	<div class="modal-dialog" role="document">
+		    	<div class="modal-content mode-center one">
+		      		<div class="modal-header">
+		        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        		<h4 class="modal-title moda-top" id="myModalLabel">博客·用户名登录</h4>
+		     		</div>
+		      		<div class="modal-body">
+		      			<div class="Img"><img src="images/wei.jpg" alt=""></div>
+		      			<p>请用<span>微信</span>扫码登录</p>
+		      		</div>
+		      		<div class="moda-bottom">
+		          		<span class="btnSpans">用户名登录</span><a href="logon.html" target="_blank">立即注册</a>
+		      		</div>
+		    	</div>
+		    	<div class="modal-content mode-center two">
+		      		<div class="modal-header">
+		        		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        		<h4 class="modal-title moda-top" id="myModalLabel">博客·用户名登录</h4>
+		     		</div>
+		     		<div class="modal-body">
+		        		<form action="index.html" id="form">
+					        <input type="text" placeholder="用户名:5~10个数字" id="modaBtn1">
+					        <input type="password" placeholder="密码:字母开头的10位数密码" id="modaBtn2">
+					        <input type="checkbox"><span>下次自动登录</span><span class="span-right">忘记密码？</span>
+					        <input type="submit" value="登录" class="button">
+				        </form>
+		      		</div>
+		      		
+		      		<div class="moda-bottom">
+		          		<span class="btnSpan">扫码登录</span><a href="logon.html" target="_blank">立即注册</a>
+		      		</div>
+		    	</div>
+		  	</div>
+		</div>
+		<!-- 登录模态框结束 -->
+		<!-- 内容区 -->
+		<div class="content">
+			<!-- 侧栏 -->
+			<div class="aside">
+				<div class="asideBox">
+					<img src="images/side.jpg" alt="头像">
+					<p>蓝伟清，一个90后的菜鸟草根男博主！19年入行。一直潜心研究web前端技术，一边工作一边积累经验，分享一些个人学习经验，以及网页前端学习心得。</p>
+					<img src="images/wei.jpg" alt="二维码">
+					<strong>扫一扫，关注我！</strong>
+				</div>
+			</div>
+			<!-- 侧栏完 -->
+			<!-- 正文区 -->
+			<div class="section">
+				<!-- 子导航 -->
+				<div class="tops">
+					<span class="tops-left">
+						<img alt="" src="images/zhuye.png">
+						您好，欢迎您访问我的个人博客！
+					</span>
+					<span class="tops-right">
+						<a href="#" data-toggle="modal" data-target="#myModal" id="denglu">登录</a><a href="logon.html" target="_blank">注册</a>
+					</span>
+				</div>
+				<!-- 子导航完 -->
+				<!-- 首页文章 -->
+				<div class="box">
+					<!-- 图片-->
+					<div class="banner">
+						<ul>
+							<li class="col-lg-4 col-md4 col-sm4 col-xs-4">
+								<a href="bowen.html"><img src="images/banner1.jpg" alt=""></a>
+								<span>【匆匆那些年】大学的那些糗事</span>
+							</li>
+							<li class="col-lg-4 col-md4 col-sm4 col-xs-4">
+								<a href="shuoshuo.html"><img src="images/banner2.jpg" alt=""></a>
+								<span>个人博客，属于我的小世界！</span>
+							</li>
+							<li class="col-lg-4 col-md4 col-sm4 col-xs-4">
+								<a href="shuoshuo.html"><img src="images/banner3.jpg" alt=""></a>
+								<span>安静地做一个爱设计的女子</span>
+							</li>
+						</ul>
+					</div>
+					<!-- 图片完 -->
+					<div class="center">
+						<div class="text col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<ul>
+								<li class="one">
+									<b>博主推荐</b>
+									<span>更多</span>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+							</ul>
+						</div>
+						<div class="text col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<ul>
+								<li class="one">
+									<b>博客说说</b>
+									<span>更多</span>
+								</li>
+								<li>
+									<a href="shuoshuo.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="shuoshuo.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="shuoshuo.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="shuoshuo.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="shuoshuo.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="shuoshuo.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="shuoshuo.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="shuoshuo.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+							</ul>
+						</div>
+						<div class="text col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<ul>
+								<li class="one">
+									<b>学习心得</b>
+									<span>更多</span>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+							</ul>
+						</div>
+						<div class="text col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<ul>
+								<li class="one">
+									<b>前端学习教程</b>
+									<span>更多</span>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+							</ul>
+						</div>
+						<div class="text col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<ul>
+								<li class="one">
+									<b>自适应网站</b>
+									<span>更多</span>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="web.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+							</ul>
+						</div>
+						<div class="text col-lg-4 col-md-6 col-sm-6 col-xs-12">
+							<ul>
+								<li class="one">
+									<b>前端前景</b>
+									<span>更多</span>
+								</li>
+								<li>
+									<a href="shuoshuo.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="shuoshuo.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="shuoshuo.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="shuoshuo.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="shuoshuo.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="shuoshuo.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="shuoshuo.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+								<li>
+									<a href="shuoshuo.html"><span>Web之路，经历了心酸之后Web之路，经历了心酸之后Web之路，经历了心酸之</span><span>08-10</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- 合作伙伴 -->
+					<div class="bottom">
+						<ul>
+							<li>
+								<p>友情链接</p>
+							</li>
+							<li>
+								<a href="http://man.yangqq.com/" target="_blank">杨青个人博客</a>
+							</li>
+						</ul>
+					</div>
+					<!-- 合作伙伴完 -->
+					<!-- 脚部部 -->
+					<div class="footer">
+						<p>@蓝伟清实训项目——个人博客</p>
+					</div>
+					<!-- 脚部部完 -->
+				</div>
+				<!-- 首页文章完 -->
+				<!-- 回到顶部按钮 -->
+				<div id="gotop"><a href="#top"></a></div>
+				<!-- 回到顶部按钮完 -->
+			</div>
+			<!-- 正文区完 -->
+		</div>
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/publi.js"></script>
+	</body>
+</html>

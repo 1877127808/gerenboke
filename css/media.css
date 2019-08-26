@@ -1,0 +1,76 @@
+/*
+* @Author: qing
+* @Date:   2019-08-10 09:01:40
+* @Last Modified by:   qing
+* @Last Modified time: 2019-08-16 11:27:38
+*/
+
+@media(max-width: 768px) {
+	.header .nav ul li a {
+		font-size: 14px;
+		display: none;
+	}
+	.content .aside {
+		display: none;
+	}
+	.content .section {
+		padding: 50px 0px 0px 0px;
+	}
+	.header #img {
+		display: block;
+	}
+}
+
+@media(max-width: 784px) {
+	.header .nav ul li a {
+		width: 10vw;
+	}
+}
+
+@media(min-width: 768px) {
+	.header .nav ul li a {
+		width: 9vw;
+	}
+}
+
+@media(max-width: 940px) {
+	.header .search {
+		display: none;
+	}
+	.header .nav ul li a {
+		width: 12vw;
+	}
+}
+
+@media(max-width: 993px) {
+	.header .search input {
+		width: 200px;
+		background-position: 165px 1px;
+	}
+}
+
+@media(min-width: 992px) {
+	.header .nav ul li a {
+		width: 10vw;
+	}
+	.header .search {
+		margin-right: 0px;
+	}
+	.header .search input {
+		width: 180px;
+		background-position: 145px 2px;
+	}
+}
+
+@media(min-width: 1200px) {
+	.header .nav ul li a {
+		width: 9vw;
+	}
+	.header .search {
+		margin-right: 50px;
+	}
+	.header .search input {
+		width: 245px;
+		background-position: 210px 2px;
+	}
+}

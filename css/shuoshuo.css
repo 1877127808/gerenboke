@@ -1,0 +1,179 @@
+/*
+* @Author: qing
+* @Date:   2019-08-15 19:37:51
+* @Last Modified by:   qing
+* @Last Modified time: 2019-08-15 19:37:54
+*/
+
+.header .nav ul li:nth-child(5) a {
+	color: #09b2b9;
+}
+
+.content .section .tops .tops-left img {
+	display: none;
+}
+
+.content .section .tops .tops-txt {
+	color: #09b2b9;
+}
+
+.content .section .text-one,
+.text-two,
+.text-three {
+	background-color: #fff;
+	padding: 10px;
+	background-clip: content-box;
+	line-height: 1.5;
+}
+
+.content .section .text-one .one-txt {
+	border-bottom: 1px dashed #ccc;
+}
+
+.content .section .text-one .one-txt .one-h h4 {
+	font-size: 22px;
+	margin-top: 20px;
+}
+
+.content .section .text-one .one-txt .one-img {
+	padding: 10px 10px 10px 0px;
+	height: 110px;
+	float: left;
+	overflow: hidden;
+}
+
+.content .section .text-one .one-txt .one-img img {
+	width: 100%;
+}
+
+.content .section .text-one .one-txt>span {
+	float: left;
+	padding-left: 10px;
+	padding-right: 0px;
+	margin: 10px 0px;
+	font-size: 16px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	color: #999;
+}
+
+.content .section .text-one .one-txt ul {
+	width: 60%;
+	float: left;
+}
+
+.content .section .text-one .one-txt ul li {
+	float: left;
+	margin-right: 20px;
+	color: #999;
+}
+
+.content .section .text-one .one-txt ul .list1 a {
+	color: #09b2b9;
+}
+
+.content .section .text-one .one-txt ul li img {
+	width: 15px;
+	height: 15px;
+}
+
+.content .section .text-one .one-txt>a {
+	color: #09b2b9;
+	display: inline-block;
+	float: right;
+}
+
+.content .section .box .center .text-two .two-txt,
+.three-txt {
+	float: left;
+}
+
+.content .section .box .center .two-txt:hover img,
+.three-txt:hover img {
+	transform: scale(1.1);
+}
+
+.content .section .box .center .text-two .two-txt:hover span,
+.three-txt:hover span {
+	color: #333;
+}
+
+.content .section .box .center .two-h h4,
+.three-h h4 {
+	font-weight: bold;
+	margin: 10px 10px 0px 10px;
+}
+
+.content .section .box .center .text-two h2 {
+	color: red;
+	border-bottom: 1px dashed red;
+	line-height: 50px;
+	font-size: 25px;
+	text-align: center;
+	margin: 0px;
+}
+
+.content .section .box .center .text-two .two-txt h4 a {
+	color: red;
+}
+
+.content .section .box .center .text-three h2 {
+	color: #09b2b9;
+	border-bottom: 1px dashed #09b2b9;
+	line-height: 50px;
+	font-size: 25px;
+	text-align: center;
+	margin: 0px;
+}
+
+.content .section .box .center .two-txt span,
+.three-txt span {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	margin: 15px 0px 15px 0px;
+	float: left;
+	color: #999;
+	padding: 0px 5px 0px 0px;
+}
+
+.content .section .box .center .two-img,
+.three-img {
+	height: 5vw;
+	margin: 20px 0px 5px 0px;
+	overflow: hidden;
+	float: left;
+}
+
+.content .section .box .center .text-two .two-txt .two-img img {
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+}
+
+.content .section .box .center .three-txt .three-img img {
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+}
+
+@media(max-width:992px) {
+	.content .section .text-one .one-txt>a {
+		display: none;
+	}
+	.content .section .text-one .one-txt ul {
+		width: 100%;
+	}
+}
+
+@media(max-width:1200px) {
+	.content .section .box .center .text-two,
+	.text-three {
+		display: none;
+	}
+}

@@ -1,0 +1,145 @@
+/*
+* @Author: qing
+* @Date:   2019-08-15 19:34:11
+* @Last Modified by:   qing
+* @Last Modified time: 2019-08-15 19:35:24
+*/
+
+.header .nav ul li:nth-child(3) a {
+	color: #09b2b9;
+}
+
+.content .section .tops .tops-left img {
+	display: none;
+}
+
+.content .section .tops .tops-txt {
+	color: #09b2b9;
+}
+
+.content .section .box .center .text1,
+.text2 {
+	padding: 10px;
+	background-clip: content-box;
+	background-color: #fff;
+}
+
+.content .section .box .center .text1 .text1-one {
+	padding: 20px 20px 20px 20px;
+	transition: 1s;
+}
+
+.content .section .box .center .text1 .text1-one:hover {
+	box-shadow: #ccc 1px 1px 20px;
+}
+
+.content .section .box .center .text1 .text1-img {
+	overflow: hidden;
+	height: 12vw;
+}
+
+.content .section .box .center .text1 .text1-img img {
+	width: 100%;
+	transition: 1s;
+}
+
+.content .section .box .center .text1 .text1-one:hover img {
+	transform: scale(1.1);
+}
+
+.content .section .box .center .text1 .text1-top p {
+	width: 90%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 10px 0px;
+}
+
+.content .section .box .center .text1-txt {
+	width: 90%;
+	height: 60px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: inline-block;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	text-align: left;
+	color: #999;
+}
+
+.content .section .box .center .text1 .text1-one>span a {
+	color: #09b2b9;
+	margin-top: 10px;
+	display: block;
+	font-size: 16px;
+}
+
+.content .section .box .center .text2 .text2-two h2 {
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #09b2b9;
+	margin: 0px;
+	border-bottom: 1px dashed;
+}
+
+.content .section .box .center .text2 .text2-two .two-txt {
+	float: left;
+}
+
+.content .section .box .center .text2 .text2-two .two-txt:hover img {
+	transform: scale(1.1);
+}
+
+.content .section .box .center .text2 .text2-two .two-txt:hover span {
+	color: #333;
+}
+
+.content .section .box .center .text2 .text2-two .two-txt .two-h h4 {
+	font-weight: bold;
+	margin: 10px 10px 0px 10px;
+}
+
+.content .section .box .center .text2 .two-one h2 {
+	color: red;
+}
+
+.content .section .box .center .text2 .two-one .two-txt h4 a {
+	color: red;
+}
+
+.content .section .box .center .text2 .text2-two .two-txt span {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	margin: 15px 0px 15px 0px;
+	padding: 0px 5px 0px 0px;
+	float: left;
+	color: #999;
+}
+
+.content .section .box .center .text2 .text2-two .two-txt .two-img {
+	padding: 20px 10px 10px 10px;
+	overflow: hidden;
+	float: left;
+}
+
+.content .section .box .center .text2 .text2-two .two-txt .two-img img {
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+}
+
+@media(max-width:1200px) {
+	.content .section .box .center .text2 {
+		display: none;
+	}
+}
