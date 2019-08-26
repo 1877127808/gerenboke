@@ -2,7 +2,7 @@
 * @Author: qing
 * @Date:   2019-08-10 09:01:40
 * @Last Modified by:   qing
-* @Last Modified time: 2019-08-26 22:46:42
+* @Last Modified time: 2019-08-26 22:55:28
 */
 
 @media(max-width: 768px) {
@@ -19,6 +19,9 @@
 	.header #img {
 		display: block;
 	}
+	.content .tops-right a:nth-child(2){
+		margin-left: 10px;
+	}
 }
 
 @media(max-width: 784px) {
@@ -30,6 +33,13 @@
 @media(min-width: 768px) {
 	.header .nav ul li a {
 		width: 9vw;
+	}
+	.content .tops-right a{
+		font-size: 14px;
+
+	}
+	.content .tops-right a:nth-child(2){
+		margin-left: 20px;
 	}
 }
 
